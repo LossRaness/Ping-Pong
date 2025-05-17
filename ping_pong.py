@@ -1,6 +1,5 @@
-#Создай собственный Шутер!
+#Создай собственный Пинг-понг!
 from pygame import *
-
 
 #класс родитель для спрайтов
 class GameSprite(sprite.Sprite):
@@ -97,7 +96,7 @@ while run:
         racket1.reset()
         racket2.reset()
         ball.reset()
-
+ 
     display.update()
     clock.tick(FPS)
   
